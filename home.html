@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to PackPoint - Your Personal Travel Planner</title>
+    <link rel="stylesheet" href="style1.css">
+    
+</head>
+<body>
+    <h2>It's time for your next trip!!!</h2>
+    <h1>Welcome to Wandering India</h1>
+    <p>Your Personal Travel Planner</p>
+    
+    <form id="tripForm">
+        <label for="destination">Where do you want to go?</label><br>
+        <select id="destination" name="destination">
+            <option value="Mumbai">Mumbai</option>
+            <option value="New Delhi">New Delhi</option>
+            <option value="Kashmir">Kashmir</option>
+            <option value="Jaipur">Jaipur</option>
+            <option value="Goa">Goa</option>
+        </select><br><br>
+        
+        <label for="days">Number of days:</label><br>
+        <select id="days" name="days">
+            <option value="3">3 days</option>
+            <option value="5">5 days</option>
+            <option value="7">7 days</option>
+        </select><br><br>
+        
+        <label for="budget">What's your budget?</label><br>
+        <select id="budget" name="budget">
+            <option value="economy">Economy</option>
+            <option value="classic">Classic</option>
+            <option value="deluxe">Deluxe</option>
+        </select><br><br>
+        
+        <!-- Block to link to the next page -->
+        <div class="button-container">
+            <button type="button" class="button-block" onclick="checkTrip()">Build an Itinerary</button>
+        </div>
+    </form>
+
+    <script>
+        function checkTrip() {
+            var destination = document.getElementById("destination").value;
+            var days = document.getElementById("days").value;
+            var budget = document.getElementById("budget").value;
+
+            // Redirect based on user's selection
+            if (destination === "Mumbai" && days === "3" && budget === "economy") {
+                window.location.href = "m3e.html"; // Redirect to Mumbai 3 days Economy page
+            } else if (destination === "Mumbai" && days === "5" && budget === "economy") {
+                window.location.href = "C:\Users\sanja\OneDrive\Desktop\new\sign.html"; // Redirect to Mumbai 5 days Economy page
+            } else if (destination === "Mumbai" && days === "7" && budget === "economy") {
+                window.location.href = "mumbai_7_days_economy.html"; // Redirect to Mumbai 7 days Economy page
+            } else if (destination === "Mumbai" && days === "3" && budget === "classic") {
+                window.location.href = "mumbai_3_days_classic.html"; // Redirect to Mumbai 3 days Classic page
+            } else if (destination === "Mumbai" && days === "5" && budget === "classic") {
+                window.location.href = "mumbai_5_days_classic.html"; // Redirect to Mumbai 5 days Classic page
+            } else if (destination === "Mumbai" && days === "7" && budget === "classic") {
+                window.location.href = "mumbai_7_days_classic.html"; // Redirect to Mumbai 7 days Classic page
+            } else if (destination === "Mumbai" && days === "3" && budget === "deluxe") {
+                window.location.href = "m3d.html"; // Redirect to Mumbai 3 days Deluxe page
+            } else if (destination === "Mumbai" && days === "5" && budget === "deluxe") {
+                window.location.href = "mumbai_5_days_deluxe.html"; // Redirect to Mumbai 5 days Deluxe page
+            } else if (destination === "Mumbai" && days === "7" && budget === "deluxe") {
+                window.location.href = "mumbai_7_days_deluxe.html"; // Redirect to Mumbai 7 days Deluxe page
+            } else if (destination === "New Delhi" && days === "3" && budget === "economy") {
+                window.location.href = "new_delhi_3_days_economy.html"; // Redirect to New Delhi 3 days Economy page
+            } else if (destination === "New Delhi" && days === "5" && budget === "economy") {
+                window.location.href = "new_delhi_5_days_economy.html"; // Redirect to New Delhi 5 days Economy page
+            } else if (destination === "New Delhi" && days === "7" && budget === "economy") {
+                window.location.href = "new_delhi_7_days_economy.html"; // Redirect to New Delhi 7 days Economy page
+            } else if (destination === "New Delhi" && days === "3" && budget === "classic") {
+                window.location.href = "new_delhi_3_days_classic.html"; // Redirect to New Delhi 3 days Classic page
+            } else if (destination === "New Delhi" && days === "5" && budget === "classic") {
+                window.location.href = "new_delhi_5_days_classic.html"; // Redirect to New Delhi 5 days Classic page
+            } else if (destination === "New Delhi" && days === "7" && budget === "classic") {
+                window.location.href = "new_delhi_7_days_classic.html"; // Redirect to New Delhi 7 days Classic page
+            } else if (destination === "New Delhi" && days === "3" && budget === "deluxe") {
+                window.location.href = "new_delhi_3_days_deluxe.html"; // Redirect to New Delhi 3 days Deluxe page
+            } else if (destination === "New Delhi" && days === "5" && budget === "deluxe") {
+                window.location.href = "new_delhi_5_days_deluxe.html"; // Redirect to New Delhi 5 days Deluxe page
+            } else if (destination === "New Delhi" && days === "7" && budget === "deluxe") {
+                window.location.href = "new_delhi_7_days_deluxe.html"; // Redirect to New Delhi 7 days Deluxe page
+            } else if (destination === "Goa" && days === "3" && budget === "economy") {
+                window.location.href = "goa_3_days_economy.html"; // Redirect to Goa 3 days Economy page
+            } else if (destination === "Goa" && days === "5" && budget === "economy") {
+                window.location.href = "goa_5_days_economy.html"; // Redirect to Goa 5 days Economy page
+            } else if (destination === "Goa" && days === "7" && budget === "economy") {
+                window.location.href = "goa_7_days_economy.html"; // Redirect to Goa 7 days Economy page
+            } else if (destination === "Goa" && days === "3" && budget === "classic") {
+                window.location.href = "goa_3_days_classic.html"; // Redirect to Goa 3 days Classic page
+            } else if (destination === "Goa" && days === "5" && budget === "classic") {
+                window.location.href = "goa_5_days_classic.html"; // Redirect to Goa 5 days Classic page
+            } else if (destination === "Goa" && days === "7" && budget === "classic") {
+                window.location.href = "goa_7_days_classic.html"; // Redirect to Goa 7 days Classic page
+            } else if (destination === "Goa" && days === "3" && budget === "deluxe") {
+                window.location.href = "goa_3_days_deluxe.html"; // Redirect to Goa 3 days Deluxe page
+            } else if (destination === "Goa" && days === "5" && budget === "deluxe") {
+                window.location.href = "goa_5_days_deluxe.html"; // Redirect to Goa 5 days Deluxe page
+            } else if (destination === "Goa" && days === "7" && budget === "deluxe") {
+                window.location.href = "goa_7_days_deluxe.html"; // Redirect to Goa 7 days Deluxe page
+            } else {
+                // Redirect to default page if no specific conditions met
+                window.location.href = "default.html"; // Change "default.html" to the desired default page
+            }
+        }
+    </script>
+</body>
+</html>

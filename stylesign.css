@@ -1,0 +1,50 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://www.goodfreephotos.com/albums/india/other/train-railway-on-the-mountainside-in-india.jpg'); /* Add your image URL here */
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 40%;
+            margin: 100px auto;
+            background-color: rgba(148, 206, 132, 0.7); /* Adjust the opacity here */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-left: 10%; /* Adjust the margin to shift it to the left */
+        }
+
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            font-size: 16px; /* Adjust font size for inputs and select */
+        }
+
+        label {
+            font-size: 16px; /* Adjust font size for labels */
+        }
+
+        button {
+            background-color: #4caf50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        h1 {
+            font-size: 3em; /* Increase the font size of the heading */
+            color: darkgreen; /* Change the color of the heading */
+            font-weight: bold; /* Make the heading bold */
+            margin-left: -40%; /* Shift the heading to the left */
+            margin-bottom: 20px; /* Add some space below the heading */
+        }
+    

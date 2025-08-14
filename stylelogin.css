@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://travellerhunt.com/wp-content/uploads/2020/10/63-Best-Tourist-Places-To-Visit-In-India-For-A-Perfect-Holiday-In-2020.jpg'); /* Add your image URL here */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 4% auto 0 auto; /* Adjusted margins */
+    background-color: rgba(97, 130, 145, 0.7); /* Added background color with opacity */
+    padding: 60px; /* Adjusted padding */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 1.2em;
+}
+
+label {
+    font-size: 2.0em;
+    color: white;
+    display: block;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+button, a.button {
+    background-color: #58399a;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+button:hover, a.button:hover {
+    background-color: #58399a;
+}
+
+h2 {
+    color: #050829;
+    font-weight: bold;
+    font-size: 5em; /* Increased font size */
+    margin-bottom: 1%; /* Adjusted margin-bottom */
+    margin-top: 5%; /* Adjusted margin-top */
+}
+
+a {
+    color: #0c1bc7;
+}

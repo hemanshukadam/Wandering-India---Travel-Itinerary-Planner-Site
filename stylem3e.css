@@ -1,0 +1,39 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://im.whatshot.in/img/2019/Feb/gateway-of-india-4b-cropped-1549871701.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.7);
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #131212;
+        }
+
+        p {
+            color: #110f0f;
+        }
+
+        .day {
+            margin-bottom: 20px;
+        }
+
+        .budget {
+            margin-top: 30px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+        }
+    

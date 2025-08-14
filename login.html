@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" type="" href="stylelogin.css">
+    
+</head>
+<body>
+    <h2>Login to WANDERING INDIA!</h2>
+    <div class="container">
+        <form id="loginForm" action="/login" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <!-- Change the button to an anchor element -->
+            <a href="#" onclick="validateLogin()" class="button">Login</a>
+        </form>
+        <p>Don't have an account? <a href="C:\Users\sanja\OneDrive\Desktop\new\sign.html">Sign up</a></p>
+    </div>
+
+    <script>
+        function validateLogin() {
+            var username = document.getElementById('username').value;
+            var password = document.getElementById('password').value;
+
+            // Your validation conditions here
+            if (username === 'username' && password === '1234') {
+                // If conditions are met, navigate to the next page
+                window.location.href = 'C:\\Users\\sanja\\OneDrive\\Desktop\\new\\home.html';
+            } else {
+                // If conditions are not met, display an alert
+                alert('Invalid username or password. Please try again.');
+            }
+        }
+    </script>
+</body>
+</html>

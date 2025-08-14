@@ -1,0 +1,68 @@
+body {
+    font-size: 2em; /* Doubles the font size */
+    background-image: url('https://www.treebo.com/blog/wp-content/uploads/2018/06/The-10-Most-Beautiful-States-In-India.jpg'); /* Replace 'sky-wallpaper.jpg' with the actual path to your sky image */
+    background-size: cover;
+    background-position: center;
+    text-align: center; /* Center align the text */
+}
+
+/* Center align form */
+form {
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+    padding: 20px;
+    background: rgba(88, 135, 160, 0.7); /* Add a semi-transparent background for better readability */
+    border-radius: 10px;
+    width: 60%; /* Decrease the width of the form */
+}
+
+h1 {
+    color: rgb(131, 17, 57); /* Change the color of the heading to purple */
+    margin-bottom: 0; /* Remove bottom margin */
+}
+
+h2 {
+    color: rgb(57, 6, 57); /* Change the color of the heading to purple */
+    margin-top: 0; /* Remove top margin */
+    margin-bottom: 10px; /* Add some space between "It's time for a new trip" and "Welcome to PackPoint" */
+}
+
+/* Decrease font size of input fields and drop-down lists */
+input[type="text"],
+input[type="number"],
+select {
+    font-size: 1.2em; /* Reduces the font size */
+    width: 90%; /* Make the input fields and dropdown lists take 90% width */
+    box-sizing: border-box; /* Include padding and border in the width */
+    margin-bottom: 10px; /* Add some space between input fields and dropdown lists */
+}
+
+/* Change color of the personal travel planner text */
+p {
+    color: rgb(91, 52, 123); /* Change the color to purple */
+    margin-top: 0; /* Remove top margin */
+}
+
+/* Style the "Build an Itinerary" block */
+.button-block {
+    background-color: #2471a3; /* Blue background color */
+    color: white;
+    padding: 20px 40px; /* Increased padding */
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.8em; /* Increased font size */
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+/* Hover effect for the "Build an Itinerary" block */
+.button-block:hover {
+    background-color: #1a5082; /* Darker blue on hover */
+}
+
+/* Center align the button */
+.button-container {
+    text-align: center;
+}

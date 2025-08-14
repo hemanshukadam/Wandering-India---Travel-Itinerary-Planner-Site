@@ -1,0 +1,43 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://i.pinimg.com/originals/5f/59/b0/5f59b047efe1f36982ff335b90b86482.jpg'); /* Background image URL */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .container {
+            max-width: 900px; /* Increased width */
+            margin: 50px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* Background color with opacity */
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2, h3 {
+            color: #131212;
+            margin-top: 0; /* Remove default margin */
+            margin-bottom: 10px; /* Adjust margin between headings */
+        }
+
+        p {
+            color: #110f0f;
+            margin-top: 0; /* Remove default margin */
+            margin-bottom: 10px; /* Adjust margin between paragraphs */
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .budget {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #e5e5e5;
+            border-radius: 8px;
+        }
+    
